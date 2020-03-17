@@ -1,0 +1,20 @@
+## script to convert image file names to use scta surface slugs as ids
+for rectio 50-99
+$start=50
+$startId=24
+while [ $start -le 99 ]; do mv 0444_00${start}_web.xml ${startId}r.xml; start=$((start + 2)); startId=$((startId + 1));  done
+
+for verso 51-99
+$start=51
+$startId=24
+while [ $start -le 99 ]; do mv 0444_00${start}_web.xml ${startId}v.xml; start=$((start + 2)); startId=$((startId + 1));  done
+
+for recto 100-281
+$start=100
+$startId=49
+while [ $start -le 281 ]; do mv 0444_0${start}_web.xml ${startId}r.xml; start=$((start + 2)); startId=$((startId + 1));  done
+
+for recto 100-281
+$start=101
+$startId=49
+while [ $start -le 281 ]; do mv 0444_0${start}_web.xml ${startId}v.xml; start=$((start + 2)); startId=$((startId + 1));  done
