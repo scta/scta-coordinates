@@ -10,7 +10,7 @@
   version="2.0"
   >
   <xsl:output method="xml" indent="yes"/>
-  <xsl:param name="pagepath">../cod-Nuf2f2_264-268/cod-Nuf2f2_264-268/page/</xsl:param>
+  <xsl:param name="pagepath">../cod-u2dgeg_1082-1099/cod-u2dgeg_1082-1099/page/</xsl:param>
   <xsl:param name="colums">2</xsl:param>
   <xsl:template match="/">
     <xsl:message>Test1</xsl:message>
@@ -45,11 +45,11 @@
           <xsl:variable name="folioAndSide" select="substring-before($fileName, '.xml')"/>
           <xsl:variable name="folio" select="replace($folioAndSide, '([rv])', '')"/>
           <xsl:variable name="side" select="replace($folioAndSide, '([0-9])', '')"/>
-          <pb ed="#N" n="{concat($folio, '-', $side)}"/>
+          <pb ed="#L" n="{concat($folio, '-', $side)}"/>
           <!--<pb ed="#L" n="{$folio}"/>-->
           
           <xsl:if test="$column">
-          <cb ed="#N" n="{$column}"/>
+          <cb ed="#L" n="{$column}"/>
           </xsl:if>
           <xsl:call-template name="getText">
             <xsl:with-param name="pageLine" select=".//transk:TextLine"/>
@@ -70,7 +70,7 @@
       <xsl:variable name="id" select="./@id"/>
       <xsl:variable name="number" select="tokenize(./@custom, ':')[2]"/>
       <xsl:variable name="position" select="count(.//preceding::transk:TextLine) + 1"/>
-      <lb ed="#N" n="{$position}"/><xsl:value-of select="./TextEquiv/Unicode"/><xsl:text> 
+      <lb ed="#L" n="{$position}"/><xsl:value-of select="./TextEquiv/Unicode"/><xsl:text> 
       </xsl:text>
       
     </xsl:for-each>
