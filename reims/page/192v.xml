@@ -4,14 +4,14 @@
         <Creator>prov=University of Rostock/Institute of Mathematics/CITlab/Tobias Gruening/tobias.gruening@uni-rostock.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=?0.1
 TRP</Creator>
         <Created>2019-01-04T17:44:41.955-05:00</Created>
-        <LastChange>2019-06-18T19:06:04.096+02:00</LastChange>
-        <TranskribusMetadata docId="112859" pageId="4106840" pageNr="370" tsid="11474704" status="IN_PROGRESS" userId="37116" imgUrl="https://files.transkribus.eu/Get?id=GBABFPKVUUCCVYPNXTQBSBRN&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=KBQTQDXIUZNBDETBKBIBGNKF" imageId="2300826"/>
+        <LastChange>2020-01-23T21:50:20.616+01:00</LastChange>
+        <TranskribusMetadata docId="112859" pageId="4106840" pageNr="384" tsid="22830929" status="IN_PROGRESS" userId="37116" imgUrl="https://files.transkribus.eu/Get?id=GBABFPKVUUCCVYPNXTQBSBRN&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=QDOUJJFCCNJGBAGOHFEUTPZW" imageId="2300826"/>
     </Metadata>
-    <Page imageFilename="RRR192v.jpg" imageWidth="0" imageHeight="0">
+    <Page imageFilename="RRRRR192v.jpg" imageWidth="0" imageHeight="0">
         <ReadingOrder>
-            <OrderedGroup id="ro_1573595309596" caption="Regions reading order">
+            <OrderedGroup id="ro_1584978092588" caption="Regions reading order">
                 <RegionRefIndexed index="0" regionRef="r1"/>
-                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="1" regionRef="TextRegion_1579812607527_698"/>
             </OrderedGroup>
         </ReadingOrder>
         <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
@@ -197,8 +197,8 @@ TRP</Creator>
                 <Baseline points="420,1837 445,1836 471,1835 497,1834 522,1834 548,1833 574,1833 599,1833 625,1833 651,1833 677,1833 702,1833 728,1832 754,1831 779,1831 805,1830 831,1828 856,1826 882,1824 908,1821 934,1818"/>
             </TextLine>
         </TextRegion>
-        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;}">
-            <Coords points="1040,211 1040,2077 1610,2077 1610,211"/>
+        <TextRegion orientation="0.0" id="TextRegion_1579812607527_698" custom="readingOrder {index:1;}">
+            <Coords points="1040,211 1610,211 1610,1827 1040,1827"/>
             <TextLine id="r2l1" custom="readingOrder {index:0;}">
                 <Coords points="1041,248 1067,249 1093,249 1119,249 1145,249 1171,248 1197,248 1224,247 1250,246 1276,245 1302,245 1328,244 1354,243 1380,242 1407,242 1433,241 1459,241 1485,241 1511,241 1537,241 1564,242 1564,212 1537,211 1511,211 1485,211 1459,211 1433,211 1407,212 1380,212 1354,213 1328,214 1302,215 1276,215 1250,216 1224,217 1197,218 1171,218 1145,219 1119,219 1093,219 1067,219 1041,218"/>
                 <Baseline points="1041,238 1067,239 1093,239 1119,239 1145,239 1171,238 1197,238 1224,237 1250,236 1276,235 1302,235 1328,234 1354,233 1380,232 1407,232 1433,231 1459,231 1485,231 1511,231 1537,231 1564,232"/>
@@ -379,18 +379,53 @@ TRP</Creator>
                 <Coords points="1053,1827 1078,1826 1103,1825 1128,1824 1153,1823 1178,1823 1203,1822 1228,1821 1253,1821 1278,1820 1303,1819 1328,1819 1353,1818 1378,1818 1403,1817 1428,1816 1453,1815 1478,1815 1503,1814 1528,1813 1553,1811 1553,1781 1528,1783 1503,1784 1478,1785 1453,1785 1428,1786 1403,1787 1378,1788 1353,1788 1328,1789 1303,1789 1278,1790 1253,1791 1228,1791 1203,1792 1178,1793 1153,1793 1128,1794 1103,1795 1078,1796 1053,1797"/>
                 <Baseline points="1053,1817 1078,1816 1103,1815 1128,1814 1153,1813 1178,1813 1203,1812 1228,1811 1253,1811 1278,1810 1303,1809 1328,1809 1353,1808 1378,1808 1403,1807 1428,1806 1453,1805 1478,1805 1503,1804 1528,1803 1553,1801"/>
             </TextLine>
-            <TextLine id="r2l46" custom="readingOrder {index:45;}">
-                <Coords points="1294,2018 1320,2014 1346,2011 1372,2009 1398,2007 1424,2006 1450,2005 1476,2005 1502,2004 1528,2004 1554,2003 1580,2002 1580,1972 1554,1973 1528,1974 1502,1974 1476,1975 1450,1975 1424,1976 1398,1977 1372,1979 1346,1981 1320,1984 1294,1988"/>
-                <Baseline points="1294,2008 1320,2004 1346,2001 1372,1999 1398,1997 1424,1996 1450,1995 1476,1995 1502,1994 1528,1994 1554,1993 1580,1992"/>
-            </TextLine>
-            <TextLine id="r2l47" custom="readingOrder {index:46;}">
-                <Coords points="1252,2050 1277,2047 1303,2045 1328,2044 1354,2042 1379,2040 1405,2039 1431,2038 1456,2037 1482,2037 1507,2036 1533,2036 1558,2036 1584,2036 1610,2037 1610,2007 1584,2006 1558,2006 1533,2006 1507,2006 1482,2007 1456,2007 1431,2008 1405,2009 1379,2010 1354,2012 1328,2014 1303,2015 1277,2017 1252,2020"/>
-                <Baseline points="1252,2040 1277,2037 1303,2035 1328,2034 1354,2032 1379,2030 1405,2029 1431,2028 1456,2027 1482,2027 1507,2026 1533,2026 1558,2026 1584,2026 1610,2027"/>
-            </TextLine>
-            <TextLine id="r2l48" custom="readingOrder {index:47;}">
-                <Coords points="1269,2077 1294,2074 1319,2071 1345,2069 1370,2069 1396,2068 1421,2068 1446,2068 1472,2067 1497,2066 1523,2064 1523,2034 1497,2036 1472,2037 1446,2038 1421,2038 1396,2038 1370,2039 1345,2039 1319,2041 1294,2044 1269,2047"/>
-                <Baseline points="1269,2067 1294,2064 1319,2061 1345,2059 1370,2059 1396,2058 1421,2058 1446,2058 1472,2057 1497,2056 1523,2054"/>
-            </TextLine>
+            <TextEquiv>
+                <Unicode>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Unicode>
+            </TextEquiv>
         </TextRegion>
     </Page>
 </PcGts>

@@ -9,7 +9,7 @@ def convert_coordfiles (base, codexid)
       # puts codexid
       # puts item
       if item.end_with?(".xml")
-        #if item == "64r.xml" ## uncomment to convert specific page
+        #if item == "62r.xml" ## uncomment to convert specific page
           convert_coord_file(base, codexid, item)
         #end
       end
