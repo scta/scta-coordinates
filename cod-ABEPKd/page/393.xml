@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2021-02-01T12:22:38.340-05:00</Created>
+        <LastChange>2021-02-01T21:43:36.897+01:00</LastChange>
+        <TranskribusMetadata docId="598068" pageId="23832163" pageNr="402" tsid="51890717" status="IN_PROGRESS" userId="25065" imgUrl="https://files.transkribus.eu/Get?id=EFPWEEGJKMVGAGJLTWQVVDHV&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=RCHVPXOANEPNYVSLPPHOGQCA" imageId="18290825"/>
+    </Metadata>
+    <Page imageFilename="401.jpg" imageWidth="3966" imageHeight="5958">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1613748955110" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="3562,190 3562,262 3742,262 3742,190"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="3562,220 3591,222 3620,224 3620,194 3591,192 3562,190"/>
+                <Baseline points="3562,210 3591,212 3620,214"/>
+            </TextLine>
+            <TextLine id="r1l2" custom="readingOrder {index:1;}">
+                <Coords points="3576,262 3603,260 3631,258 3659,256 3686,253 3714,248 3742,240 3742,210 3714,218 3686,223 3659,226 3631,228 3603,230 3576,232"/>
+                <Baseline points="3576,252 3603,250 3631,248 3659,246 3686,243 3714,238 3742,230"/>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

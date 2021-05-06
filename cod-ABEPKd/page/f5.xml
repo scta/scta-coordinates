@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2021-02-01T12:22:26.041-05:00</Created>
+        <LastChange>2021-02-01T20:27:12.100+01:00</LastChange>
+        <TranskribusMetadata docId="598068" pageId="23831565" pageNr="6" tsid="51889193" status="IN_PROGRESS" userId="25065" imgUrl="https://files.transkribus.eu/Get?id=VCTXYHLUYFNRTWAGUCWNRADT&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=KGGNHZPCSBLDPMFUXJOQIACQ" imageId="18290243"/>
+    </Metadata>
+    <Page imageFilename="5.jpg" imageWidth="4038" imageHeight="5934">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1613748863674" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+                <RegionRefIndexed index="2" regionRef="r3"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="44,824 44,974 92,974 92,824"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="44,974 92,974 92,824 44,824"/>
+                <Baseline points="44,924 92,924"/>
+            </TextLine>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;}">
+            <Coords points="956,468 956,554 2416,554 2416,468"/>
+            <TextLine id="r2l1" custom="readingOrder {index:0;}">
+                <Coords points="956,512 1016,512 1076,512 1137,510 1197,509 1258,507 1318,506 1378,504 1439,502 1499,500 1560,499 1620,498 1680,498 1741,498 1801,500 1862,502 1922,506 1982,508 2043,515 2103,523 2164,530 2164,500 2103,493 2043,485 1982,478 1922,476 1862,472 1801,470 1741,468 1680,468 1620,468 1560,469 1499,470 1439,472 1378,474 1318,476 1258,477 1197,479 1137,480 1076,482 1016,482 956,482"/>
+                <Baseline points="956,502 1016,502 1076,502 1137,500 1197,499 1258,497 1318,496 1378,494 1439,492 1499,490 1560,489 1620,488 1680,488 1741,488 1801,490 1862,492 1922,496 1982,498 2043,505 2103,513 2164,520"/>
+            </TextLine>
+            <TextLine id="r2l2" custom="readingOrder {index:1;}">
+                <Coords points="2094,554 2120,552 2147,550 2174,547 2201,545 2228,543 2255,542 2281,540 2308,540 2335,540 2362,542 2389,545 2416,550 2416,520 2389,515 2362,512 2335,510 2308,510 2281,510 2255,512 2228,513 2201,515 2174,517 2147,520 2120,522 2094,524"/>
+                <Baseline points="2094,544 2120,542 2147,540 2174,537 2201,535 2228,533 2255,532 2281,530 2308,530 2335,530 2362,532 2389,535 2416,540"/>
+            </TextLine>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r3" custom="readingOrder {index:2;}">
+            <Coords points="2396,142 2396,310 2980,310 2980,142"/>
+            <TextLine id="r3l1" custom="readingOrder {index:0;}">
+                <Coords points="2396,304 2425,300 2454,296 2483,294 2512,292 2542,292 2571,292 2600,293 2629,294 2658,295 2688,296 2717,299 2746,302 2775,303 2804,305 2834,308 2863,309 2892,310 2921,310 2950,309 2980,308 2980,158 2950,159 2921,160 2892,160 2863,159 2834,158 2804,155 2775,153 2746,152 2717,149 2688,146 2658,145 2629,144 2600,143 2571,142 2542,142 2512,142 2483,144 2454,146 2425,150 2396,154"/>
+                <Baseline points="2396,254 2425,250 2454,246 2483,244 2512,242 2542,242 2571,242 2600,243 2629,244 2658,245 2688,246 2717,249 2746,252 2775,253 2804,255 2834,258 2863,259 2892,260 2921,260 2950,259 2980,258"/>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

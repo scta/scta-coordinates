@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2020-11-20T14:43:52.242+01:00</Created>
+        <LastChange>2020-11-20T14:51:30.370+01:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: English
+                Language: Latin
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="541769" pageId="22791133" pageNr="6" tsid="49357391" status="IN_PROGRESS" userId="25065" imgUrl="https://files.transkribus.eu/Get?id=QMDPCPKMZAHDWZXLDYAFPCER&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=KRXEZNJOGQCPRLDZVXONJCAZ" imageId="17768600"/>
+    </Metadata>
+    <Page imageFilename="5.jpg" imageWidth="2595" imageHeight="3950">
+        <PrintSpace>
+            <Coords points="395,1733 2063,1733 2063,2204 395,2204"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1616597079810" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1_1"/>
+                <RegionRefIndexed index="1" regionRef="r_1_2"/>
+                <RegionRefIndexed index="2" regionRef="r_1_3"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion type="paragraph" id="r_1_1" custom="readingOrder {index:0;}">
+            <Coords points="406,1743 2055,1743 2055,1870 406,1870"/>
+            <TextLine id="tl_1" primaryLanguage="English" custom="readingOrder {index:0;}">
+                <Coords points="407,1744 2054,1744 2054,1869 407,1869"/>
+                <Baseline points="407,1865 1028,1862 1524,1866 2054,1869"/>
+                <Word id="w_w2aab1b1b2b1b1ab1" language="English" custom="readingOrder {index:0;}">
+                    <Coords points="407,1746 1028,1746 1028,1865 407,1865"/>
+                    <TextEquiv>
+                        <Unicode>J0ANNIS</Unicode>
+                    </TextEquiv>
+                    <TextStyle fontFamily="Times New Roman" fontSize="23.0"/>
+                </Word>
+                <Word id="w_w2aab1b1b2b1b1ac17" language="English" custom="readingOrder {index:1;}">
+                    <Coords points="1145,1747 1524,1747 1524,1866 1145,1866"/>
+                    <TextEquiv>
+                        <Unicode>DUNS</Unicode>
+                    </TextEquiv>
+                    <TextStyle fontFamily="Times New Roman" fontSize="23.0"/>
+                </Word>
+                <Word id="w_w2aab1b1b2b1b1ac27" language="English" custom="readingOrder {index:2;}">
+                    <Coords points="1629,1750 2054,1750 2054,1869 1629,1869"/>
+                    <TextEquiv>
+                        <Unicode>SCOTI</Unicode>
+                    </TextEquiv>
+                    <TextStyle fontFamily="Times New Roman" fontSize="23.0"/>
+                </Word>
+                <TextEquiv>
+                    <Unicode>J0ANNIS DUNS SCOTI</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="23.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>J0ANNIS DUNS SCOTI</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_2" custom="readingOrder {index:1;}">
+            <Coords points="550,1960 1928,1960 1928,2018 550,2018"/>
+            <TextLine id="tl_2" primaryLanguage="English" custom="readingOrder {index:0;}">
+                <Coords points="551,1961 1927,1961 1927,2017 551,2017"/>
+                <Baseline points="551,2009 883,2010 1241,2015 1561,2012 1927,2011"/>
+                <Word id="w_w2aab1b1b2b3b1ab1" language="English" custom="readingOrder {index:0;}">
+                    <Coords points="551,1961 883,1961 883,2010 551,2010"/>
+                    <TextEquiv>
+                        <Unicode>DOCTORIS</Unicode>
+                    </TextEquiv>
+                    <TextStyle fontFamily="Times New Roman" fontSize="9.5"/>
+                </Word>
+                <Word id="w_w2aab1b1b2b3b1ac19" language="English" custom="readingOrder {index:1;}">
+                    <Coords points="919,1962 1241,1962 1241,2015 919,2015"/>
+                    <TextEquiv>
+                        <Unicode>SUBTILIS,</Unicode>
+                    </TextEquiv>
+                    <TextStyle fontFamily="Times New Roman" fontSize="9.5"/>
+                </Word>
+                <Word id="w_w2aab1b1b2b3b1ac39" language="English" custom="readingOrder {index:2;}">
+                    <Coords points="1281,1963 1561,1963 1561,2012 1281,2012"/>
+                    <TextEquiv>
+                        <Unicode>ORDINIS</Unicode>
+                    </TextEquiv>
+                    <TextStyle fontFamily="Times New Roman" fontSize="9.5"/>
+                </Word>
+                <Word id="w_w2aab1b1b2b3b1ac55" language="English" custom="readingOrder {index:3;}">
+                    <Coords points="1597,1964 1927,1964 1927,2012 1597,2012"/>
+                    <TextEquiv>
+                        <Unicode>MINORUM</Unicode>
+                    </TextEquiv>
+                    <TextStyle fontFamily="Times New Roman" fontSize="9.5"/>
+                </Word>
+                <TextEquiv>
+                    <Unicode>DOCTORIS SUBTILIS, ORDINIS MINORUM</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.5"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>DOCTORIS SUBTILIS, ORDINIS MINORUM</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_3" custom="readingOrder {index:2;}">
+            <Coords points="917,2119 1550,2119 1550,2195 917,2195"/>
+            <TextLine id="tl_3" primaryLanguage="English" custom="readingOrder {index:0;}">
+                <Coords points="918,2120 1549,2120 1549,2194 918,2194"/>
+                <Baseline points="918,2192 1191,2191 1548,2192"/>
+                <Word id="w_w2aab1b1b2b5b1ab1" language="English" custom="readingOrder {index:0;}">
+                    <Coords points="918,2120 1191,2120 1191,2192 918,2192"/>
+                    <TextEquiv>
+                        <Unicode>OPERA</Unicode>
+                    </TextEquiv>
+                    <TextStyle fontFamily="Times New Roman" fontSize="14.0"/>
+                </Word>
+                <Word id="w_w2aab1b1b2b5b1ac13" language="English" custom="readingOrder {index:1;}">
+                    <Coords points="1246,2121 1548,2121 1548,2192 1246,2192"/>
+                    <TextEquiv>
+                        <Unicode>OMNIA.</Unicode>
+                    </TextEquiv>
+                    <TextStyle fontFamily="Times New Roman" fontSize="14.0"/>
+                </Word>
+                <TextEquiv>
+                    <Unicode>OPERA OMNIA.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="14.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>OPERA OMNIA.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

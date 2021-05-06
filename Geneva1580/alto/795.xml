@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2021-02-10T14:41:49.006-05:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2064" WIDTH="1253">
+         <TopMargin HEIGHT="0" WIDTH="1253" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2064" WIDTH="0" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="2064" WIDTH="0" VPOS="0" HPOS="1253"/>
+         <BottomMargin HEIGHT="0" WIDTH="1253" VPOS="2064" HPOS="0"/>
+         <PrintSpace HEIGHT="2064" WIDTH="1253" VPOS="0" HPOS="0">
+            <TextBlock ID="r1" HEIGHT="107" WIDTH="219" VPOS="149" HPOS="785">
+               <Shape>
+                  <Polygon POINTS="785,149 785,256 1004,256 1004,149"/>
+               </Shape>
+               <TextLine ID="r1l1"
+                         BASELINE="194"
+                         HEIGHT="45"
+                         WIDTH="145"
+                         VPOS="149"
+                         HPOS="785">
+                  <String HEIGHT="45" WIDTH="0" VPOS="149" HPOS="930" CONTENT=""/>
+               </TextLine>
+               <TextLine ID="r1l2"
+                         BASELINE="256"
+                         HEIGHT="51"
+                         WIDTH="185"
+                         VPOS="205"
+                         HPOS="819">
+                  <String HEIGHT="51" WIDTH="0" VPOS="205" HPOS="1004" CONTENT=""/>
+               </TextLine>
+            </TextBlock>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

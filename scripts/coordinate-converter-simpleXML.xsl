@@ -138,7 +138,9 @@
             <xsl:value-of select="$columnX1"/>
           </xsl:when>
           <xsl:when test="$widthStandard eq 'line'">
+            <xsl:message>Using lines: <xsl:value-of select="tokenize($topLeft, ',')[1]"/></xsl:message>
             <xsl:value-of select="tokenize($topLeft, ',')[1]"/>
+            
           </xsl:when>
           <xsl:otherwise>
             <xsl:value-of select="tokenize($topLeft, ',')[1]"/>

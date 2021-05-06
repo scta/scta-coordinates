@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2021-01-20T13:58:27.889+01:00</Created>
+        <LastChange>2021-01-20T18:39:04.647+01:00</LastChange>
+        <TranskribusMetadata docId="576385" pageId="23673009" pageNr="897" tsid="51513885" status="IN_PROGRESS" userId="25065" imgUrl="https://files.transkribus.eu/Get?id=ZDBFWNXZKHGWUAPXBDRECAFI&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=FBOGYDUWXUFRPEMGLMCHBCKM" imageId="18181815"/>
+    </Metadata>
+    <Page imageFilename="896.jpg" imageWidth="1253" imageHeight="2064">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1612986108902" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="785,149 785,256 1004,256 1004,149"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="785,189 814,190 843,190 872,190 901,191 930,194 930,154 901,151 872,150 843,150 814,150 785,149"/>
+                <Baseline points="785,176 814,177 843,177 872,177 901,178 930,181"/>
+            </TextLine>
+            <TextLine id="r1l2" custom="readingOrder {index:1;}">
+                <Coords points="819,245 845,246 871,249 898,250 924,251 951,252 977,254 1004,256 1004,216 977,214 951,212 924,211 898,210 871,209 845,206 819,205"/>
+                <Baseline points="819,232 845,233 871,236 898,237 924,238 951,239 977,241 1004,243"/>
+            </TextLine>
+        </TextRegion>
+    </Page>
+</PcGts>

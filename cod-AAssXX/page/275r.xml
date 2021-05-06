@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=cod-AAssXX-m2(htr_id=27673)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-10-30T08:03:42.499-04:00</Created>
+        <LastChange>2020-11-20T17:58:22.238+01:00</LastChange>
+        <TranskribusMetadata docId="528931" pageId="22410971" pageNr="553" tsid="49376588" status="IN_PROGRESS" userId="25065" imgUrl="https://files.transkribus.eu/Get?id=MHQUDRAUUXTGSGLNAXDVVIHJ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=ILIUERDOBMRPVXHJFHMMPBVY" imageId="17470352"/>
+    </Metadata>
+    <Page imageFilename="Averroes_Metaphysica_JuntSecunda_08-0553.jpg" imageWidth="1475" imageHeight="2066">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1605972798228" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="TextRegion_1604785299078_337"/>
+                <RegionRefIndexed index="1" regionRef="TextRegion_1604785310688_358"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="TextRegion_1604785299078_337" custom="readingOrder {index:0;}">
+            <Coords points="211,82 720,82 720,1894 211,1894"/>
+            <TextLine id="line_1604785299202_340" custom="readingOrder {index:0;}">
+                <Coords points="206,167 716,170 716,133 627,137 614,124 563,144 542,125 421,142 391,125 353,139 331,125 296,139 206,127"/>
+                <Baseline points="211,162 229,162 256,161 283,161 309,160 336,160 363,159 390,159 416,159 443,159 470,159 497,159 523,159 550,159 577,160 604,160 630,160 657,160 684,160 711,159"/>
+                <TextEquiv>
+                    <Unicode>in homine secundum materiam, etsi carnes</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:1;}">
+                <Coords points="214,205 330,203 381,218 469,203 712,205 712,176 673,166 418,165 322,188 289,168 214,173"/>
+                <Baseline points="219,199 244,199 270,198 296,198 321,198 347,198 373,198 398,198 424,197 450,197 475,197 501,198 527,198 552,198 578,198 604,198 629,198 655,199 681,199 707,199"/>
+                <TextEquiv>
+                    <Unicode>&amp; ossa, ex quibus componitur hoc</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l4" custom="readingOrder {index:2;}">
+                <Coords points="208,249 611,250 713,242 713,213 470,206 443,226 332,204 243,219 228,205 208,220"/>
+                <Baseline points="213,237 239,237 265,237 291,237 317,237 343,237 369,237 395,237 421,237 447,237 473,237 499,237 525,237 551,237 577,237 603,237 629,237 655,237 681,237 708,237"/>
+                <TextEquiv>
+                    <Unicode>demonstratum, sint alia a carnibus</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l5" custom="readingOrder {index:3;}">
+                <Coords points="214,282 560,281 590,297 612,281 722,281 722,252 214,253"/>
+                <Baseline points="219,276 245,275 271,275 297,274 323,274 350,274 376,274 402,274 428,274 454,275 481,275 507,275 533,275 559,276 585,276 612,276 638,276 664,276 690,275 717,275"/>
+                <TextEquiv>
+                    <Unicode>&amp; ossibus, ex quibus componitur hoc</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l6" custom="readingOrder {index:4;}">
+                <Coords points="213,330 713,322 713,294 679,282 615,301 407,281 378,295 312,281 213,294"/>
+                <Baseline points="218,315 243,314 269,314 295,314 321,313 346,313 372,313 398,313 424,313 450,314 475,314 501,314 527,314 553,314 579,315 604,315 630,315 656,315 682,315 708,315"/>
+                <TextEquiv>
+                    <Unicode>aliud scilicet diuersae complexionis. &amp; ideo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l7" custom="readingOrder {index:5;}">
+                <Coords points="212,360 330,357 374,373 522,355 700,362 700,324 524,338 212,333"/>
+                <Baseline points="217,352 242,352 267,352 292,352 317,352 342,352 367,352 393,352 418,352 443,353 468,353 493,353 518,353 544,353 569,353 594,353 619,353 644,353 669,353 695,352"/>
+                <TextEquiv>
+                    <Unicode>totum congregatum ex istis ossib</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l8" custom="readingOrder {index:6;}">
+                <Coords points="208,400 721,400 721,373 609,373 582,359 454,373 208,363"/>
+                <Baseline points="213,390 238,390 263,390 288,390 313,390 338,390 363,390 389,390 414,391 439,391 464,391 489,391 514,391 539,392 565,392 590,392 615,392 640,392 665,392 690,392 716,392"/>
+                <TextEquiv>
+                    <Unicode>&amp; carnibus non est aliud a toto con¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l9" custom="readingOrder {index:7;}">
+                <Coords points="212,435 234,428 270,451 335,434 721,442 721,406 672,400 212,409"/>
+                <Baseline points="217,428 243,429 269,429 295,429 322,429 348,429 374,429 400,429 427,429 453,429 479,429 505,429 532,429 558,429 584,429 610,430 637,430 663,430 689,430 716,431"/>
+                <TextEquiv>
+                    <Unicode>pregato ex istis ossibus &amp; carnibus.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l10" custom="readingOrder {index:8;}">
+                <Coords points="213,474 715,475 715,445 699,438 267,449 234,428 213,435"/>
+                <Baseline points="218,467 243,467 269,467 295,466 321,467 347,467 373,467 399,468 425,468 451,468 476,469 502,469 528,470 554,470 580,470 606,470 632,470 658,470 684,469 710,469"/>
+                <TextEquiv>
+                    <Unicode>&amp; homo est vnus secundum formam, &amp; alie</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l11" custom="readingOrder {index:9;}">
+                <Coords points="212,513 484,513 497,526 717,514 717,485 682,476 638,488 602,476 212,485"/>
+                <Baseline points="217,507 243,507 269,507 295,507 321,507 347,507 373,507 399,507 425,508 451,508 477,508 503,509 529,509 555,509 581,509 607,509 633,509 659,509 685,509 712,508"/>
+                <TextEquiv>
+                    <Unicode>tas non inuenitur, nisi quando in forma sint</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l12" custom="readingOrder {index:10;}">
+                <Coords points="216,554 476,552 505,566 529,553 715,554 716,517 216,524"/>
+                <Baseline points="221,546 246,545 272,545 298,546 323,546 349,546 375,546 401,546 426,547 452,547 478,547 504,548 529,548 555,548 581,548 607,548 632,548 658,548 684,548 710,547"/>
+                <TextEquiv>
+                    <Unicode>contrarietates. D.d. quoniam in verbo non</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l14" custom="readingOrder {index:11;}">
+                <Coords points="224,595 712,602 712,565 631,555 224,564"/>
+                <Baseline points="229,584 254,584 279,585 304,585 329,585 354,585 379,585 405,586 430,586 455,586 480,586 505,586 530,586 556,587 581,587 606,587 631,587 656,587 681,588 707,588"/>
+                <TextEquiv>
+                    <Unicode>est contrarietas. i. &amp; causa in hoc, quod</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l16" custom="readingOrder {index:12;}">
+                <Coords points="222,634 363,623 635,642 714,632 715,605 223,594"/>
+                <Baseline points="227,623 252,623 277,624 303,624 328,625 353,625 379,625 404,626 429,626 455,626 480,626 506,626 531,626 556,626 582,626 607,626 632,627 658,627 683,627 709,627"/>
+                <TextEquiv>
+                    <Unicode>homo est vnus in sua forma, est, quia in</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l18" custom="readingOrder {index:13;}">
+                <Coords points="216,670 715,675 716,633 507,648 217,636"/>
+                <Baseline points="221,665 246,664 272,664 298,664 324,663 349,663 375,664 401,664 427,664 453,664 478,664 504,665 530,665 556,665 582,665 607,665 633,665 659,664 685,663 711,662"/>
+                <TextEquiv>
+                    <Unicode>sua definitione non accipiuntur diff¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1604785299204_342" custom="readingOrder {index:14;}">
+                <Coords points="206,714 596,710 613,722 637,707 720,710 720,682 555,689 471,670 435,686 286,672 206,685"/>
+                <Baseline points="211,705 222,705 248,704 274,704 300,704 326,703 352,703 378,704 404,704 430,704 456,704 481,704 507,704 533,704 559,704 585,704 611,704 637,704 663,704 689,703 715,703"/>
+                <TextEquiv>
+                    <Unicode>rentiae contrariae. Illa enim in quorum</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l21" custom="readingOrder {index:15;}">
+                <Coords points="214,747 697,754 717,748 718,710 630,709 615,723 520,710 436,729 270,710 215,727"/>
+                <Baseline points="219,743 244,743 270,742 296,742 322,742 348,742 374,742 400,742 426,742 452,742 478,742 504,742 530,743 556,743 582,743 608,743 634,743 660,743 686,743 712,743"/>
+                <TextEquiv>
+                    <Unicode>definitionibus accipiuntur differen¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l24" custom="readingOrder {index:16;}">
+                <Coords points="226,794 714,789 720,754 658,752 637,773 604,752 226,760"/>
+                <Baseline points="231,782 256,782 281,782 307,782 332,782 358,782 383,782 409,782 434,782 460,782 485,782 511,782 536,782 562,782 587,782 613,783 638,783 664,783 689,783 715,784"/>
+                <TextEquiv>
+                    <Unicode>tiae contrariae, sunt contraria. D.d.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l26" custom="readingOrder {index:17;}">
+                <Coords points="227,828 518,838 717,826 717,788 497,805 227,793"/>
+                <Baseline points="232,820 257,821 282,821 307,821 333,821 358,821 383,821 408,821 434,822 459,822 484,822 509,822 535,822 560,821 585,821 610,821 636,820 661,820 686,819 712,818"/>
+                <TextEquiv>
+                    <Unicode>&amp; hoc est vltimum, quod non diui¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l27" custom="readingOrder {index:18;}">
+                <Coords points="227,867 661,874 717,866 717,828 435,842 420,829 227,830"/>
+                <Baseline points="232,860 257,861 282,861 307,861 333,861 358,861 383,861 408,861 434,861 459,861 484,861 509,861 535,861 560,861 585,861 610,861 636,861 661,861 686,861 712,861"/>
+                <TextEquiv>
+                    <Unicode>ditur. i. &amp; illud, quod secundum formam est</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l28" custom="readingOrder {index:19;}">
+                <Coords points="229,906 710,907 725,904 725,869 229,877"/>
+                <Baseline points="234,900 259,899 285,899 310,899 336,899 361,899 387,899 413,899 438,899 464,899 489,899 515,899 540,900 566,900 592,900 617,900 643,899 668,899 694,899 720,899"/>
+                <TextEquiv>
+                    <Unicode>vnum, est vltima species, quae non di</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l29" custom="readingOrder {index:20;}">
+                <Coords points="227,946 719,946 719,911 227,915"/>
+                <Baseline points="232,938 257,938 282,938 308,938 333,939 358,939 384,939 409,939 434,939 460,939 485,939 511,940 536,940 561,940 587,940 612,940 637,940 663,940 688,939 714,939"/>
+                <TextEquiv>
+                    <Unicode>uiditur nisi in indiuidua. D.d. Cal¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l30" custom="readingOrder {index:21;}">
+                <Coords points="216,984 344,995 378,982 664,979 713,998 713,957 216,951"/>
+                <Baseline points="221,977 246,977 272,977 297,977 323,977 349,977 374,977 400,977 426,977 451,977 477,977 502,977 528,977 554,977 579,977 605,978 631,978 656,978 682,978 708,978"/>
+                <TextEquiv>
+                    <Unicode>lias vero, &amp;c. i. indiuiduum vero, v. g</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l31" custom="readingOrder {index:22;}">
+                <Coords points="225,1026 714,1024 714,997 641,984 588,999 513,983 401,998 378,985 337,1003 289,986 225,989"/>
+                <Baseline points="230,1017 255,1018 280,1018 305,1017 330,1017 356,1017 381,1017 406,1017 431,1017 456,1017 482,1017 507,1017 532,1017 557,1017 582,1017 608,1017 633,1017 658,1017 683,1018 709,1018"/>
+                <TextEquiv>
+                    <Unicode>Callias, est compositum ex formam</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l32" custom="readingOrder {index:23;}">
+                <Coords points="226,1066 721,1062 711,1026 226,1029"/>
+                <Baseline points="231,1056 256,1056 282,1056 307,1056 333,1056 358,1056 384,1056 409,1056 435,1056 460,1056 486,1056 511,1056 537,1056 562,1056 588,1056 613,1056 639,1056 664,1056 690,1056 716,1056"/>
+                <TextEquiv>
+                    <Unicode>&amp; materia. D.d &amp; albus est homo, &amp;c. i.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l33" custom="readingOrder {index:24;}">
+                <Coords points="223,1109 382,1096 455,1115 480,1100 721,1106 721,1075 640,1064 223,1070"/>
+                <Baseline points="228,1095 253,1095 279,1096 305,1096 330,1096 356,1095 382,1095 407,1095 433,1095 459,1095 484,1095 510,1095 536,1095 561,1095 587,1095 613,1095 638,1096 664,1096 690,1096 716,1096"/>
+                <TextEquiv>
+                    <Unicode>quoniam albedo &amp; nigredo insunt homi</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l34" custom="readingOrder {index:25;}">
+                <Coords points="214,1143 266,1155 492,1133 691,1146 718,1139 718,1108 214,1114"/>
+                <Baseline points="219,1135 245,1135 271,1135 297,1135 323,1135 349,1135 375,1135 401,1135 427,1135 453,1135 479,1135 505,1135 531,1135 557,1135 583,1135 609,1135 635,1135 661,1134 687,1134 713,1134"/>
+                <TextEquiv>
+                    <Unicode>niper accidens: &amp; istae differentiae</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l35" custom="readingOrder {index:26;}">
+                <Coords points="218,1178 679,1186 716,1178 716,1143 671,1165 654,1149 572,1141 218,1151"/>
+                <Baseline points="223,1173 248,1173 274,1173 300,1173 325,1173 351,1174 377,1174 402,1174 428,1174 454,1174 479,1174 505,1174 531,1173 556,1173 582,1173 608,1173 633,1173 659,1173 685,1174 711,1174"/>
+                <TextEquiv>
+                    <Unicode>non faciunt in eo specialitatem. al¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l36" custom="readingOrder {index:27;}">
+                <Coords points="225,1217 665,1226 719,1217 719,1181 666,1193 225,1182"/>
+                <Baseline points="230,1212 255,1212 280,1213 306,1213 331,1213 357,1213 382,1213 408,1213 433,1214 459,1214 484,1214 510,1214 535,1214 561,1214 586,1214 612,1213 637,1213 663,1213 688,1212 714,1212"/>
+                <TextEquiv>
+                    <Unicode>bedo enim non est in homine, nisi</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l37" custom="readingOrder {index:28;}">
+                <Coords points="223,1265 713,1258 713,1229 678,1221 223,1229"/>
+                <Baseline points="228,1250 253,1251 278,1251 303,1251 329,1251 354,1251 379,1251 404,1252 430,1252 455,1252 480,1252 505,1251 531,1251 556,1251 581,1251 606,1251 632,1251 657,1251 682,1252 708,1252"/>
+                <TextEquiv>
+                    <Unicode>quia est in quibusdam indiuiduis ho¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l38" custom="readingOrder {index:29;}">
+                <Coords points="223,1298 447,1306 637,1292 704,1310 721,1305 721,1260 660,1260 634,1276 515,1260 223,1269"/>
+                <Baseline points="228,1290 253,1289 279,1289 305,1289 330,1289 356,1289 382,1290 407,1290 433,1290 459,1290 484,1290 510,1290 536,1291 561,1291 587,1291 613,1291 638,1291 664,1291 690,1291 716,1290"/>
+                <TextEquiv>
+                    <Unicode>minis, vt Socrate &amp; Platone. est igi</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l39" custom="readingOrder {index:30;}">
+                <Coords points="228,1335 714,1338 714,1310 645,1296 622,1309 567,1297 552,1309 539,1298 228,1308"/>
+                <Baseline points="233,1328 258,1328 283,1329 308,1329 333,1329 358,1330 383,1330 408,1330 433,1330 458,1330 483,1330 508,1330 533,1330 558,1330 583,1329 608,1329 633,1329 658,1330 683,1330 709,1330"/>
+                <TextEquiv>
+                    <Unicode>tur in homine non secundum ipsum, sed secundu</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l40" custom="readingOrder {index:31;}">
+                <Coords points="223,1378 479,1373 517,1389 570,1369 627,1389 681,1374 713,1383 713,1349 678,1337 553,1350 223,1339"/>
+                <Baseline points="228,1367 253,1367 278,1367 303,1367 329,1367 354,1367 379,1368 404,1368 430,1368 455,1368 480,1368 505,1369 531,1369 556,1369 581,1369 606,1369 632,1369 657,1369 682,1369 708,1369"/>
+                <TextEquiv>
+                    <Unicode>sua indiuidua. est igitur in specie er</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l41" custom="readingOrder {index:32;}">
+                <Coords points="222,1418 721,1418 721,1388 688,1375 672,1390 222,1380"/>
+                <Baseline points="227,1406 252,1407 278,1407 304,1407 329,1407 355,1408 381,1408 407,1408 432,1408 458,1408 484,1408 510,1408 535,1408 561,1408 587,1408 613,1408 638,1408 664,1407 690,1407 716,1407"/>
+                <TextEquiv>
+                    <Unicode>accidens. Et ideo dicit: Nec circulus</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l42" custom="readingOrder {index:33;}">
+                <Coords points="218,1450 725,1458 725,1421 679,1416 656,1428 634,1415 558,1414 536,1429 483,1417 389,1429 373,1413 218,1422"/>
+                <Baseline points="223,1445 249,1445 275,1445 301,1445 327,1446 353,1446 379,1446 406,1446 432,1446 458,1446 484,1446 510,1446 536,1446 563,1447 589,1447 615,1447 641,1447 667,1447 693,1447 720,1446"/>
+                <TextEquiv>
+                    <Unicode>cupri, &amp;c. i. nec etiam diuersantur res</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l43" custom="readingOrder {index:34;}">
+                <Coords points="221,1491 343,1491 356,1504 467,1485 715,1491 715,1460 681,1452 498,1453 474,1468 221,1453"/>
+                <Baseline points="226,1484 251,1484 276,1484 302,1484 327,1485 353,1485 378,1485 404,1485 429,1485 455,1485 480,1485 506,1486 531,1486 557,1486 582,1486 608,1485 633,1485 659,1485 684,1485 710,1485"/>
+                <TextEquiv>
+                    <Unicode>in specie propter diuersitatem sua</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l44" custom="readingOrder {index:35;}">
+                <Coords points="218,1530 517,1529 535,1541 717,1529 703,1493 218,1500"/>
+                <Baseline points="223,1521 248,1521 274,1522 300,1522 325,1522 351,1522 377,1523 403,1523 428,1524 454,1524 480,1524 506,1524 531,1524 557,1525 583,1525 609,1524 634,1524 660,1524 686,1524 712,1523"/>
+                <TextEquiv>
+                    <Unicode>rum materierum in specie, cum for</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l45" custom="readingOrder {index:36;}">
+                <Coords points="227,1570 715,1570 715,1541 552,1529 535,1544 501,1533 311,1541 295,1529 227,1541"/>
+                <Baseline points="232,1562 257,1562 282,1562 307,1562 332,1562 357,1562 382,1562 408,1562 433,1563 458,1563 483,1563 508,1563 533,1564 559,1564 584,1564 609,1564 634,1563 659,1563 684,1563 710,1562"/>
+                <TextEquiv>
+                    <Unicode>ma sit vna, vt circulus factus ex cu¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l46" custom="readingOrder {index:37;}">
+                <Coords points="226,1618 706,1611 717,1580 226,1581"/>
+                <Baseline points="231,1600 256,1600 281,1600 306,1601 332,1601 357,1601 382,1602 408,1602 433,1602 458,1602 484,1602 509,1603 534,1603 560,1603 585,1603 610,1603 636,1602 661,1602 686,1602 712,1601"/>
+                <TextEquiv>
+                    <Unicode>pro aut ligno, &amp; triangulus factus ex</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l47" custom="readingOrder {index:38;}">
+                <Coords points="227,1651 702,1650 725,1647 725,1612 227,1620"/>
+                <Baseline points="232,1640 257,1640 283,1640 309,1640 334,1640 360,1640 386,1641 411,1641 437,1641 463,1641 488,1641 514,1642 540,1642 565,1642 591,1642 617,1642 642,1642 668,1641 694,1641 720,1641"/>
+                <TextEquiv>
+                    <Unicode>cupro aut ligno. D.d. &amp; non sunt di</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l49" custom="readingOrder {index:39;}">
+                <Coords points="223,1683 685,1690 713,1687 713,1650 343,1661 282,1646 223,1659"/>
+                <Baseline points="228,1677 253,1677 278,1678 303,1678 329,1678 354,1679 379,1679 404,1679 430,1679 455,1679 480,1679 505,1680 531,1680 556,1680 581,1680 606,1680 632,1680 657,1680 682,1679 708,1679"/>
+                <TextEquiv>
+                    <Unicode>uersa secundum contrarietatem. i. &amp; ideo i</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l51" custom="readingOrder {index:40;}">
+                <Coords points="225,1730 696,1732 715,1723 715,1688 628,1702 528,1685 225,1689"/>
+                <Baseline points="230,1718 255,1718 280,1717 305,1717 331,1717 356,1717 381,1717 406,1717 432,1718 457,1718 482,1718 507,1718 533,1718 558,1719 583,1719 608,1718 634,1718 659,1718 684,1717 710,1716"/>
+                <TextEquiv>
+                    <Unicode>la, quae diuersartur secundum speciem, non di¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l54" custom="readingOrder {index:41;}">
+                <Coords points="228,1763 723,1762 723,1734 624,1725 228,1733"/>
+                <Baseline points="233,1756 258,1756 284,1756 309,1756 335,1756 360,1756 386,1757 411,1757 437,1757 462,1757 488,1757 513,1757 539,1757 564,1758 590,1758 615,1758 641,1757 666,1757 692,1757 718,1757"/>
+                <TextEquiv>
+                    <Unicode>uersantur secundum diuersitatem suarum</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l56" custom="readingOrder {index:42;}">
+                <Coords points="226,1810 723,1802 723,1771 226,1773"/>
+                <Baseline points="231,1796 256,1795 282,1795 307,1795 333,1795 359,1796 384,1796 410,1796 436,1796 461,1797 487,1797 512,1797 538,1797 564,1798 589,1798 615,1797 641,1797 666,1797 692,1796 718,1795"/>
+                <TextEquiv>
+                    <Unicode>materierum, sed quia in suis formis</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l58" custom="readingOrder {index:43;}">
+                <Coords points="227,1850 721,1837 710,1813 557,1805 489,1805 473,1821 456,1805 227,1813"/>
+                <Baseline points="232,1837 257,1836 282,1836 308,1836 333,1836 359,1836 384,1836 410,1836 435,1836 461,1837 486,1837 512,1837 537,1837 563,1838 588,1838 614,1838 639,1838 665,1837 690,1837 716,1836"/>
+                <TextEquiv>
+                    <Unicode>est contrarietas. D.d. Sed vurum ma¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>in homine secundum materiam, etsi carnes
+&amp; ossa, ex quibus componitur hoc
+demonstratum, sint alia a carnibus
+&amp; ossibus, ex quibus componitur hoc
+aliud scilicet diuersae complexionis. &amp; ideo
+totum congregatum ex istis ossib
+&amp; carnibus non est aliud a toto con¬
+pregato ex istis ossibus &amp; carnibus.
+&amp; homo est vnus secundum formam, &amp; alie
+tas non inuenitur, nisi quando in forma sint
+contrarietates. D.d. quoniam in verbo non
+est contrarietas. i. &amp; causa in hoc, quod
+homo est vnus in sua forma, est, quia in
+sua definitione non accipiuntur diff¬
+rentiae contrariae. Illa enim in quorum
+definitionibus accipiuntur differen¬
+tiae contrariae, sunt contraria. D.d.
+&amp; hoc est vltimum, quod non diui¬
+ditur. i. &amp; illud, quod secundum formam est
+vnum, est vltima species, quae non di
+uiditur nisi in indiuidua. D.d. Cal¬
+lias vero, &amp;c. i. indiuiduum vero, v. g
+Callias, est compositum ex formam
+&amp; materia. D.d &amp; albus est homo, &amp;c. i.
+quoniam albedo &amp; nigredo insunt homi
+niper accidens: &amp; istae differentiae
+non faciunt in eo specialitatem. al¬
+bedo enim non est in homine, nisi
+quia est in quibusdam indiuiduis ho¬
+minis, vt Socrate &amp; Platone. est igi
+tur in homine non secundum ipsum, sed secundu
+sua indiuidua. est igitur in specie er
+accidens. Et ideo dicit: Nec circulus
+cupri, &amp;c. i. nec etiam diuersantur res
+in specie propter diuersitatem sua
+rum materierum in specie, cum for
+ma sit vna, vt circulus factus ex cu¬
+pro aut ligno, &amp; triangulus factus ex
+cupro aut ligno. D.d. &amp; non sunt di
+uersa secundum contrarietatem. i. &amp; ideo i
+la, quae diuersartur secundum speciem, non di¬
+uersantur secundum diuersitatem suarum
+materierum, sed quia in suis formis
+est contrarietas. D.d. Sed vurum ma¬</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="TextRegion_1604785310688_358" custom="readingOrder {index:1;}">
+            <Coords points="742,80 1264,80 1264,1886 742,1886"/>
+            <TextLine id="line_1604785310797_361" custom="readingOrder {index:0;}">
+                <Coords points="751,166 942,177 1211,158 1263,170 1269,117 1237,133 751,133"/>
+                <Baseline points="756,159 783,159 810,159 837,159 865,158 892,158 919,158 947,158 974,158 1001,158 1029,158 1056,158 1083,158 1110,158 1138,158 1165,157 1192,157 1220,156 1247,156 1264,155"/>
+                <TextEquiv>
+                    <Unicode>teria, &amp;c i. &amp; quaeritur vtrum sit pos¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l5" custom="readingOrder {index:1;}">
+                <Coords points="751,210 1156,200 1216,218 1251,203 1251,172 1212,159 1194,176 751,167"/>
+                <Baseline points="756,198 781,198 807,198 833,197 859,197 884,197 910,197 936,197 962,198 988,198 1013,198 1039,198 1065,198 1091,198 1117,198 1142,197 1168,197 1194,197 1220,196 1246,195"/>
+                <TextEquiv>
+                    <Unicode>sibile vt materia faciat aliud in spe¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l7" custom="readingOrder {index:2;}">
+                <Coords points="751,242 825,254 844,241 1247,242 1246,204 1215,218 1162,204 935,221 909,205 750,212"/>
+                <Baseline points="756,237 781,237 807,238 832,238 858,238 883,238 909,238 935,238 960,238 986,237 1011,237 1037,237 1062,237 1088,237 1114,237 1139,237 1165,237 1190,237 1216,237 1242,237"/>
+                <TextEquiv>
+                    <Unicode>cio, quando materia fuerit diuersa</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l9" custom="readingOrder {index:3;}">
+                <Coords points="746,282 1181,290 1247,282 1247,244 1173,258 1131,245 746,253"/>
+                <Baseline points="751,274 776,275 802,275 828,275 854,275 880,276 906,276 931,276 957,276 983,276 1009,276 1035,276 1061,276 1086,276 1112,276 1138,276 1164,276 1190,276 1216,276 1242,276"/>
+                <TextEquiv>
+                    <Unicode>quoquo modo. D.d. Et forte, &amp;c. i.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l12" custom="readingOrder {index:4;}">
+                <Coords points="750,321 1019,321 1041,334 1064,320 1247,322 1247,293 1210,280 1179,292 750,291"/>
+                <Baseline points="755,315 780,315 806,315 831,315 857,315 883,315 908,316 934,316 960,316 985,316 1011,316 1036,316 1062,316 1088,316 1113,316 1139,316 1165,315 1190,315 1216,314 1242,313"/>
+                <TextEquiv>
+                    <Unicode>&amp; forte existimatur possibile esse vt</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l14" custom="readingOrder {index:5;}">
+                <Coords points="750,367 1239,363 1239,324 750,325"/>
+                <Baseline points="755,353 780,353 805,353 830,354 855,354 881,354 906,354 931,354 956,355 981,355 1007,355 1032,355 1057,355 1082,355 1107,355 1133,355 1158,354 1183,354 1208,353 1234,352"/>
+                <TextEquiv>
+                    <Unicode>ista diuersitas secundum materiam faciat di</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l15" custom="readingOrder {index:6;}">
+                <Coords points="740,396 949,399 968,412 1185,398 1235,414 1252,404 1252,356 1219,373 1170,359 1138,374 1070,361 991,374 967,360 740,372"/>
+                <Baseline points="745,392 770,392 795,392 820,392 845,393 870,393 895,393 920,393 945,393 970,393 996,393 1021,393 1046,393 1071,393 1096,393 1121,393 1146,393 1171,393 1196,393 1221,394 1247,394"/>
+                <TextEquiv>
+                    <Unicode>uersitatem in specie, quando duae diuersi</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l16" custom="readingOrder {index:7;}">
+                <Coords points="743,441 1258,442 1258,413 1184,398 1160,412 1129,400 854,413 835,399 743,413"/>
+                <Baseline points="748,432 773,432 798,431 823,431 849,431 874,431 899,431 924,431 950,432 975,432 1000,432 1025,432 1051,432 1076,432 1101,432 1126,432 1152,432 1177,432 1202,432 1227,431 1253,431"/>
+                <TextEquiv>
+                    <Unicode>tates fuerint congregatae, scilicet in specie</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l17" custom="readingOrder {index:8;}">
+                <Coords points="748,481 1259,483 1259,444 1245,440 1179,452 1062,440 1044,455 918,437 748,445"/>
+                <Baseline points="753,470 778,470 803,470 828,470 853,470 878,470 903,470 928,470 953,470 978,471 1003,471 1028,471 1053,471 1078,471 1103,471 1128,471 1153,471 1178,471 1203,471 1228,471 1254,471"/>
+                <TextEquiv>
+                    <Unicode>&amp; forma insimul. D.d. Et quare est</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l18" custom="readingOrder {index:9;}">
+                <Coords points="750,513 783,526 994,512 1026,530 1064,514 1256,522 1256,485 1167,478 1142,490 750,485"/>
+                <Baseline points="755,508 781,509 807,509 833,509 859,509 885,509 911,509 937,509 963,509 989,509 1016,509 1042,509 1068,509 1094,509 1120,509 1146,509 1172,509 1198,509 1224,509 1251,510"/>
+                <TextEquiv>
+                    <Unicode>equus alius, &amp;c. i. v. g. vt aliquis quae</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l19" custom="readingOrder {index:10;}">
+                <Coords points="752,553 812,568 890,551 927,565 987,551 1251,558 1251,525 1232,517 1028,532 1013,517 752,525"/>
+                <Baseline points="757,548 782,548 808,548 834,548 859,548 885,548 911,548 937,548 962,548 988,548 1014,548 1040,549 1065,549 1091,549 1117,549 1143,549 1168,549 1194,549 1220,549 1246,549"/>
+                <TextEquiv>
+                    <Unicode>rat quare equus &amp; homo sunt alia</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l20" custom="readingOrder {index:11;}">
+                <Coords points="746,593 1045,605 1246,594 1246,561 1199,557 930,574 872,557 746,558"/>
+                <Baseline points="751,588 776,587 802,587 828,587 854,587 879,587 905,587 931,587 957,587 983,587 1008,587 1034,587 1060,587 1086,587 1112,587 1137,587 1163,587 1189,587 1215,588 1241,588"/>
+                <TextEquiv>
+                    <Unicode>secundum speciem, vtrum per diuersitatem</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l21" custom="readingOrder {index:12;}">
+                <Coords points="748,633 1253,634 1253,605 1231,596 1176,613 1081,593 921,613 748,598"/>
+                <Baseline points="753,627 779,627 805,627 831,627 857,627 883,627 909,627 935,627 961,627 987,626 1013,626 1039,626 1065,626 1091,626 1117,626 1143,626 1169,626 1195,627 1221,627 1248,627"/>
+                <TextEquiv>
+                    <Unicode>formarum, aut materierum, quia</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l22" custom="readingOrder {index:13;}">
+                <Coords points="750,674 1243,673 1243,645 1168,637 963,647 750,633"/>
+                <Baseline points="755,665 780,665 805,665 831,665 856,665 882,665 907,665 932,665 958,665 983,665 1009,665 1034,665 1060,665 1085,665 1110,666 1136,666 1161,666 1187,666 1212,665 1238,665"/>
+                <TextEquiv>
+                    <Unicode>sunt diuersa in ambobus. Et inten¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l23" custom="readingOrder {index:14;}">
+                <Coords points="745,709 1107,724 1137,709 1253,710 1253,669 1204,688 1176,672 1161,684 988,685 943,670 745,684"/>
+                <Baseline points="750,704 776,704 802,704 828,704 854,704 881,704 907,704 933,704 959,704 985,704 1012,704 1038,704 1064,704 1090,704 1116,704 1143,704 1169,704 1195,704 1221,704 1248,705"/>
+                <TextEquiv>
+                    <Unicode>dit, quoniam potest aliquis fingere in tali¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l24" custom="readingOrder {index:15;}">
+                <Coords points="752,754 1247,754 1247,711 1234,709 1214,725 1184,712 988,722 930,710 813,726 752,711"/>
+                <Baseline points="757,742 782,743 808,743 833,743 859,743 884,743 910,743 935,743 961,743 986,743 1012,743 1037,743 1063,743 1088,743 1114,743 1139,743 1165,743 1190,743 1216,743 1242,743"/>
+                <TextEquiv>
+                    <Unicode>bus, quod diuersitas earum in specie est</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l25" custom="readingOrder {index:16;}">
+                <Coords points="750,800 867,785 1044,794 1058,782 1257,795 1257,757 750,757"/>
+                <Baseline points="755,781 781,782 807,782 833,782 859,782 885,782 911,782 938,782 964,782 990,782 1016,782 1042,782 1068,782 1095,782 1121,782 1147,782 1173,782 1199,782 1225,783 1252,783"/>
+                <TextEquiv>
+                    <Unicode>propter diuersitatem eorum in ma</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l26" custom="readingOrder {index:17;}">
+                <Coords points="752,834 1252,827 1252,798 752,800"/>
+                <Baseline points="757,821 782,821 808,822 834,822 860,822 885,822 911,822 937,821 963,821 989,821 1014,821 1040,821 1066,821 1092,821 1118,820 1143,820 1169,820 1195,820 1221,821 1247,821"/>
+                <TextEquiv>
+                    <Unicode>teria. D.dedit exemplum, &amp; dicita</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l27" custom="readingOrder {index:18;}">
+                <Coords points="752,865 1246,874 1259,829 1038,845 951,827 752,836"/>
+                <Baseline points="757,859 783,859 809,859 835,859 861,860 887,860 913,860 939,860 965,860 991,860 1018,860 1044,860 1070,860 1096,860 1122,860 1148,860 1174,860 1200,860 1226,860 1253,860"/>
+                <TextEquiv>
+                    <Unicode>vt hominis albi, &amp;c. i. v. g. homo al</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l28" custom="readingOrder {index:19;}">
+                <Coords points="753,906 955,905 977,922 1019,904 1249,906 1249,877 1214,869 1103,887 1054,869 1028,881 753,869"/>
+                <Baseline points="758,899 783,899 809,899 834,899 860,899 885,899 911,899 937,899 962,899 988,899 1013,899 1039,899 1064,899 1090,899 1116,899 1141,899 1167,899 1192,899 1218,899 1244,899"/>
+                <TextEquiv>
+                    <Unicode>bus &amp; equus niger, haec enim duo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l29" custom="readingOrder {index:20;}">
+                <Coords points="748,946 1253,945 1239,909 981,921 910,906 748,909"/>
+                <Baseline points="753,938 779,939 805,940 831,940 857,940 883,940 909,940 935,940 961,939 987,939 1013,939 1039,938 1065,938 1091,938 1117,938 1143,938 1169,938 1195,938 1221,939 1248,940"/>
+                <TextEquiv>
+                    <Unicode>sunt diuersa secundum materiam &amp; formam:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l30" custom="readingOrder {index:21;}">
+                <Coords points="750,985 1257,989 1257,962 1191,947 1099,960 1041,946 750,954"/>
+                <Baseline points="755,976 781,977 807,977 833,977 859,978 885,978 911,978 938,977 964,977 990,977 1016,977 1042,977 1068,977 1095,977 1121,977 1147,977 1173,977 1199,977 1225,977 1252,978"/>
+                <TextEquiv>
+                    <Unicode>diuersa enim secundum materiam,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l31" custom="readingOrder {index:22;}">
+                <Coords points="749,1025 768,1037 855,1021 1222,1034 1256,1026 1256,994 1160,983 1005,997 972,982 943,996 927,982 905,997 851,984 749,997"/>
+                <Baseline points="754,1016 780,1017 806,1017 832,1017 858,1017 884,1018 910,1018 937,1017 963,1017 989,1017 1015,1017 1041,1017 1067,1016 1094,1016 1120,1016 1146,1016 1172,1015 1198,1015 1224,1015 1251,1015"/>
+                <TextEquiv>
+                    <Unicode>quia alter est albus, &amp; alter est nigern</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l32" custom="readingOrder {index:23;}">
+                <Coords points="751,1066 1039,1056 1144,1078 1169,1060 1257,1059 1257,1029 1212,1037 1198,1024 1120,1044 925,1023 899,1037 751,1026"/>
+                <Baseline points="756,1056 782,1056 808,1056 834,1056 860,1056 886,1056 912,1056 938,1056 964,1056 990,1056 1017,1056 1043,1056 1069,1056 1095,1056 1121,1056 1147,1056 1173,1056 1199,1056 1225,1056 1252,1056"/>
+                <TextEquiv>
+                    <Unicode>secundum formam vero, quia hoc,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l33" custom="readingOrder {index:24;}">
+                <Coords points="748,1100 1253,1102 1253,1071 1198,1078 1173,1061 1144,1078 1058,1063 748,1068"/>
+                <Baseline points="753,1096 779,1096 805,1095 831,1095 857,1095 883,1095 909,1095 935,1095 961,1095 987,1095 1013,1095 1039,1095 1065,1095 1091,1095 1117,1095 1143,1095 1169,1095 1195,1095 1221,1095 1248,1095"/>
+                <TextEquiv>
+                    <Unicode>rationale, hoc autem hinnibile. De</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l34" custom="readingOrder {index:25;}">
+                <Coords points="746,1137 1255,1146 1255,1102 965,1118 868,1101 821,1116 804,1102 746,1108"/>
+                <Baseline points="751,1133 777,1133 803,1134 829,1134 856,1134 882,1134 908,1134 934,1134 961,1134 987,1134 1013,1134 1039,1134 1066,1133 1092,1133 1118,1133 1144,1133 1171,1133 1197,1134 1223,1134 1250,1134"/>
+                <TextEquiv>
+                    <Unicode>inde d. sed non, quia alter albus, &amp;c.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l35" custom="readingOrder {index:26;}">
+                <Coords points="751,1178 1022,1180 1035,1192 1252,1179 1252,1149 1164,1142 1119,1158 1094,1141 982,1153 751,1141"/>
+                <Baseline points="756,1173 781,1174 807,1174 833,1174 859,1173 885,1173 911,1173 936,1173 962,1173 988,1173 1014,1173 1040,1173 1066,1173 1091,1173 1117,1173 1143,1173 1169,1173 1195,1173 1221,1173 1247,1174"/>
+                <TextEquiv>
+                    <Unicode>in sed manifestum est per se, quod homo</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l36" custom="readingOrder {index:27;}">
+                <Coords points="751,1218 1043,1214 1179,1231 1259,1218 1259,1188 1221,1178 1041,1198 1023,1182 943,1178 900,1193 751,1190"/>
+                <Baseline points="756,1213 782,1213 808,1213 834,1213 860,1213 887,1213 913,1212 939,1212 965,1212 991,1212 1018,1212 1044,1211 1070,1211 1096,1211 1122,1211 1149,1211 1175,1212 1201,1212 1227,1212 1254,1213"/>
+                <TextEquiv>
+                    <Unicode>albus non differt ab equo nigro in</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l37" custom="readingOrder {index:28;}">
+                <Coords points="748,1258 831,1271 882,1257 1039,1266 1067,1254 1101,1269 1182,1257 1207,1271 1252,1260 1252,1221 1167,1234 748,1221"/>
+                <Baseline points="753,1251 779,1251 805,1251 831,1251 857,1251 883,1251 909,1251 935,1251 961,1251 987,1251 1013,1251 1039,1251 1065,1251 1091,1250 1117,1250 1143,1251 1169,1251 1195,1251 1221,1251 1247,1252"/>
+                <TextEquiv>
+                    <Unicode>hoc, quod homo albus, &amp; equus niger¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l38" custom="readingOrder {index:29;}">
+                <Coords points="748,1298 1236,1298 1235,1261 1209,1272 747,1261"/>
+                <Baseline points="753,1290 778,1290 803,1290 828,1290 853,1291 878,1291 903,1290 929,1290 954,1290 979,1290 1004,1290 1029,1290 1054,1289 1080,1289 1105,1289 1130,1289 1155,1289 1180,1289 1205,1290 1231,1290"/>
+                <TextEquiv>
+                    <Unicode>Deinde dedit causam in hoc, &amp; di</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l39" custom="readingOrder {index:30;}">
+                <Coords points="752,1338 1232,1340 1243,1298 752,1309"/>
+                <Baseline points="757,1330 782,1330 807,1330 832,1329 858,1329 883,1329 908,1329 934,1329 959,1329 984,1329 1010,1329 1035,1329 1060,1329 1086,1329 1111,1329 1136,1329 1162,1329 1187,1329 1212,1329 1238,1329"/>
+                <TextEquiv>
+                    <Unicode>cit: quam, si ambo essent albi, &amp;c. idest</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l40" custom="readingOrder {index:31;}">
+                <Coords points="752,1382 1246,1378 1252,1347 924,1336 899,1353 839,1336 752,1349"/>
+                <Baseline points="757,1367 782,1367 808,1367 834,1368 860,1368 885,1368 911,1368 937,1368 963,1368 989,1368 1014,1368 1040,1367 1066,1367 1092,1367 1118,1367 1143,1367 1169,1367 1195,1367 1221,1368 1247,1368"/>
+                <TextEquiv>
+                    <Unicode>quoniam, si ambo conuenirent in</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1604785354347_394" custom="readingOrder {index:32;}">
+                <Coords points="750,1419 1188,1413 1208,1429 1255,1418 1255,1381 920,1373 884,1393 778,1374 750,1388"/>
+                <Baseline points="755,1407 780,1407 805,1407 830,1407 855,1407 880,1407 905,1407 930,1407 955,1407 980,1407 1005,1407 1030,1407 1055,1407 1080,1407 1105,1407 1130,1407 1155,1407 1180,1408 1205,1408 1220,1408 1250,1406"/>
+                <TextEquiv>
+                    <Unicode>albedine, essent in forma diuersil, &amp; </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l43" custom="readingOrder {index:33;}">
+                <Coords points="748,1466 856,1451 1252,1450 1251,1429 1190,1418 747,1421"/>
+                <Baseline points="753,1445 779,1446 805,1446 831,1447 857,1447 883,1447 909,1447 935,1447 961,1447 987,1447 1013,1446 1039,1446 1065,1446 1091,1446 1117,1445 1143,1445 1169,1445 1195,1445 1221,1445 1247,1445"/>
+                <TextEquiv>
+                    <Unicode>propter hoc non conuenirent in for¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l44" custom="readingOrder {index:34;}">
+                <Coords points="753,1489 963,1486 983,1503 1090,1490 1105,1505 1128,1490 1188,1505 1255,1490 1255,1462 1169,1452 753,1462"/>
+                <Baseline points="758,1485 783,1485 809,1485 835,1485 861,1485 887,1485 913,1485 939,1485 965,1485 991,1485 1016,1485 1042,1485 1068,1485 1094,1485 1120,1485 1146,1485 1172,1485 1198,1485 1224,1484 1250,1484"/>
+                <TextEquiv>
+                    <Unicode>ma. &amp; intendit quod sic est intelligen¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l45" custom="readingOrder {index:35;}">
+                <Coords points="752,1530 1126,1528 1216,1541 1247,1530 1247,1504 1174,1493 983,1507 960,1493 752,1496"/>
+                <Baseline points="757,1523 782,1523 808,1523 833,1523 859,1524 884,1524 910,1524 935,1524 961,1524 986,1524 1012,1524 1037,1524 1063,1523 1088,1523 1114,1523 1139,1523 1165,1523 1190,1523 1216,1523 1242,1523"/>
+                <TextEquiv>
+                    <Unicode>dum in diuersitate hominis &amp; equi</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l46" custom="readingOrder {index:36;}">
+                <Coords points="751,1570 1249,1571 1249,1541 1144,1541 1129,1528 1050,1542 920,1529 751,1541"/>
+                <Baseline points="756,1562 781,1563 807,1563 833,1563 858,1563 884,1563 910,1564 935,1564 961,1563 987,1563 1012,1563 1038,1563 1064,1563 1089,1563 1115,1562 1141,1562 1166,1561 1192,1561 1218,1560 1244,1560"/>
+                <TextEquiv>
+                    <Unicode>in materia, scilicet quod ista diuer¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l47" custom="readingOrder {index:37;}">
+                <Coords points="755,1610 958,1603 1008,1618 1253,1601 1253,1582 1213,1573 1155,1584 755,1572"/>
+                <Baseline points="760,1601 785,1601 811,1601 837,1601 862,1601 888,1601 914,1602 939,1602 965,1602 991,1602 1016,1602 1042,1602 1068,1602 1093,1602 1119,1602 1145,1602 1170,1601 1196,1601 1222,1601 1248,1601"/>
+                <TextEquiv>
+                    <Unicode>sitas non facit diuersitatem in for¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l48" custom="readingOrder {index:38;}">
+                <Coords points="750,1649 1254,1649 1254,1621 1144,1611 750,1621"/>
+                <Baseline points="755,1641 781,1641 807,1641 833,1640 859,1640 885,1640 911,1640 937,1640 963,1640 989,1640 1015,1641 1041,1641 1067,1641 1093,1641 1119,1641 1145,1641 1171,1641 1197,1642 1223,1642 1249,1642"/>
+                <TextEquiv>
+                    <Unicode>ma, sicut est dispositio in homine</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l49" custom="readingOrder {index:39;}">
+                <Coords points="751,1686 997,1684 1032,1701 1058,1687 1251,1692 1251,1661 1165,1651 751,1653"/>
+                <Baseline points="756,1678 781,1678 807,1679 833,1679 859,1679 884,1679 910,1679 936,1679 962,1679 988,1679 1013,1679 1039,1679 1065,1679 1091,1679 1117,1679 1142,1679 1168,1679 1194,1679 1220,1679 1246,1679"/>
+                <TextEquiv>
+                    <Unicode>albo &amp; homine nigro. Et, quia quae¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l50" custom="readingOrder {index:40;}">
+                <Coords points="752,1730 1251,1729 1251,1698 1227,1687 1011,1698 752,1685"/>
+                <Baseline points="757,1717 782,1717 808,1718 834,1718 859,1718 885,1719 911,1719 937,1719 962,1719 988,1719 1014,1719 1040,1719 1065,1719 1091,1719 1117,1718 1143,1718 1168,1718 1194,1718 1220,1718 1246,1718"/>
+                <TextEquiv>
+                    <Unicode>stio, a qua incoepit in masculo &amp; foe¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l51" custom="readingOrder {index:41;}">
+                <Coords points="748,1762 1256,1760 1239,1733 1160,1721 1098,1740 998,1725 748,1734"/>
+                <Baseline points="753,1755 779,1756 805,1756 831,1757 857,1757 884,1757 910,1758 936,1758 962,1758 988,1757 1015,1757 1041,1757 1067,1757 1093,1757 1119,1756 1146,1756 1172,1756 1198,1756 1224,1756 1251,1756"/>
+                <TextEquiv>
+                    <Unicode>mina non est dissoluta dissolutio¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l52" custom="readingOrder {index:42;}">
+                <Coords points="752,1801 799,1814 820,1801 849,1814 915,1802 1211,1811 1253,1802 1253,1764 752,1773"/>
+                <Baseline points="757,1795 782,1796 808,1796 834,1797 860,1797 886,1797 912,1797 937,1797 963,1797 989,1797 1015,1797 1041,1797 1067,1796 1092,1796 1118,1796 1144,1796 1170,1796 1196,1796 1222,1796 1248,1796"/>
+                <TextEquiv>
+                    <Unicode>ne propria, incoepit dicere hoc, &amp; di</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r3l53" custom="readingOrder {index:43;}">
+                <Coords points="749,1842 1257,1842 1237,1805 1176,1820 1135,1805 749,1814"/>
+                <Baseline points="754,1837 780,1836 806,1836 832,1836 858,1836 885,1836 911,1836 937,1836 963,1836 989,1836 1016,1836 1042,1836 1068,1836 1094,1836 1120,1836 1147,1836 1173,1836 1199,1836 1225,1836 1252,1836"/>
+                <TextEquiv>
+                    <Unicode>cit: Masculus vero &amp; foemina, &amp;ce.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>teria, &amp;c i. &amp; quaeritur vtrum sit pos¬
+sibile vt materia faciat aliud in spe¬
+cio, quando materia fuerit diuersa
+quoquo modo. D.d. Et forte, &amp;c. i.
+&amp; forte existimatur possibile esse vt
+ista diuersitas secundum materiam faciat di
+uersitatem in specie, quando duae diuersi
+tates fuerint congregatae, scilicet in specie
+&amp; forma insimul. D.d. Et quare est
+equus alius, &amp;c. i. v. g. vt aliquis quae
+rat quare equus &amp; homo sunt alia
+secundum speciem, vtrum per diuersitatem
+formarum, aut materierum, quia
+sunt diuersa in ambobus. Et inten¬
+dit, quoniam potest aliquis fingere in tali¬
+bus, quod diuersitas earum in specie est
+propter diuersitatem eorum in ma
+teria. D.dedit exemplum, &amp; dicita
+vt hominis albi, &amp;c. i. v. g. homo al
+bus &amp; equus niger, haec enim duo
+sunt diuersa secundum materiam &amp; formam:
+diuersa enim secundum materiam,
+quia alter est albus, &amp; alter est nigern
+secundum formam vero, quia hoc,
+rationale, hoc autem hinnibile. De
+inde d. sed non, quia alter albus, &amp;c.
+in sed manifestum est per se, quod homo
+albus non differt ab equo nigro in
+hoc, quod homo albus, &amp; equus niger¬
+Deinde dedit causam in hoc, &amp; di
+cit: quam, si ambo essent albi, &amp;c. idest
+quoniam, si ambo conuenirent in
+albedine, essent in forma diuersil, &amp; 
+propter hoc non conuenirent in for¬
+ma. &amp; intendit quod sic est intelligen¬
+dum in diuersitate hominis &amp; equi
+in materia, scilicet quod ista diuer¬
+sitas non facit diuersitatem in for¬
+ma, sicut est dispositio in homine
+albo &amp; homine nigro. Et, quia quae¬
+stio, a qua incoepit in masculo &amp; foe¬
+mina non est dissoluta dissolutio¬
+ne propria, incoepit dicere hoc, &amp; di
+cit: Masculus vero &amp; foemina, &amp;ce.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

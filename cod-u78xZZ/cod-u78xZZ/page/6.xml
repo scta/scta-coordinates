@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2020-11-20T14:43:52.681+01:00</Created>
+        <LastChange>2020-11-20T14:51:30.814+01:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: English
+                Language: Latin
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="541769" pageId="22791134" pageNr="7" tsid="49357392" status="IN_PROGRESS" userId="25065" imgUrl="https://files.transkribus.eu/Get?id=OITCEAWUIEFCFSFCXWFEWBGX&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=SJPOOYLTTWOWEKIWTLAMGJQW" imageId="17768601"/>
+    </Metadata>
+    <Page imageFilename="6.jpg" imageWidth="2682" imageHeight="3979">
+        <PrintSpace>
+            <Coords points="1113,1901 2682,1901 2682,3635 1113,3635"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1616597080062" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion type="paragraph" id="r_1_1" custom="readingOrder {index:0;}">
+            <Coords points="1119,1931 1678,1931 1678,1985 1119,1985"/>
+            <TextLine id="tl_1" primaryLanguage="English" custom="readingOrder {index:0;}">
+                <Coords points="1120,1932 1677,1932 1677,1984 1120,1984"/>
+                <Baseline points="1120,1984 1162,1984 1371,1981 1677,1978"/>
+                <Word id="w_w2aab1b1b2b1b1ab1" language="English" custom="readingOrder {index:0;}">
+                    <Coords points="1120,1936 1198,1936 1198,1984 1120,1984"/>
+                    <TextEquiv>
+                        <Unicode>Ex</Unicode>
+                    </TextEquiv>
+                    <TextStyle fontFamily="Times New Roman" fontSize="13.0"/>
+                </Word>
+                <Word id="w_w2aab1b1b2b1b1b1b1" language="English" custom="readingOrder {index:1;}">
+                    <Coords points="1233,1950 1371,1950 1371,1982 1233,1982"/>
+                    <TextEquiv>
+                        <Unicode>TYPIS</Unicode>
+                    </TextEquiv>
+                    <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+                </Word>
+                <Word id="w_w2aab1b1b2b1b1b1c13" language="English" custom="readingOrder {index:2;}">
+                    <Coords points="1408,1933 1677,1933 1677,1981 1408,1981"/>
+                    <TextEquiv>
+                        <Unicode>ClSTERTII.</Unicode>
+                    </TextEquiv>
+                    <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+                </Word>
+                <TextEquiv>
+                    <Unicode>Ex TYPIS ClSTERTII.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Ex TYPIS ClSTERTII.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_2" custom="readingOrder {index:1;}">
+            <Coords points="1138,1901 1669,1901 1669,1910 1138,1910"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_3" custom="readingOrder {index:2;}">
+            <Coords points="1145,2018 1670,2018 1670,2028 1145,2028"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_4" custom="readingOrder {index:3;}">
+            <Coords points="2671,3443 2682,3443 2682,3635 2671,3635"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

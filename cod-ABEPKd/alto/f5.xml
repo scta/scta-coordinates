@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2021-02-19T10:34:23.887-05:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="5934" WIDTH="4038">
+         <TopMargin HEIGHT="0" WIDTH="4038" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="5934" WIDTH="0" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="5934" WIDTH="0" VPOS="0" HPOS="4038"/>
+         <BottomMargin HEIGHT="0" WIDTH="4038" VPOS="5934" HPOS="0"/>
+         <PrintSpace HEIGHT="5934" WIDTH="4038" VPOS="0" HPOS="0">
+            <TextBlock ID="r1" HEIGHT="150" WIDTH="48" VPOS="824" HPOS="44">
+               <Shape>
+                  <Polygon POINTS="44,824 44,974 92,974 92,824"/>
+               </Shape>
+               <TextLine ID="r1l1"
+                         BASELINE="974"
+                         HEIGHT="150"
+                         WIDTH="48"
+                         VPOS="824"
+                         HPOS="44">
+                  <String HEIGHT="150" WIDTH="0" VPOS="824" HPOS="92" CONTENT=""/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r2" HEIGHT="86" WIDTH="1460" VPOS="468" HPOS="956">
+               <Shape>
+                  <Polygon POINTS="956,468 956,554 2416,554 2416,468"/>
+               </Shape>
+               <TextLine ID="r2l1"
+                         BASELINE="530"
+                         HEIGHT="62"
+                         WIDTH="1208"
+                         VPOS="468"
+                         HPOS="956">
+                  <String HEIGHT="62" WIDTH="0" VPOS="468" HPOS="2164" CONTENT=""/>
+               </TextLine>
+               <TextLine ID="r2l2"
+                         BASELINE="554"
+                         HEIGHT="44"
+                         WIDTH="322"
+                         VPOS="510"
+                         HPOS="2094">
+                  <String HEIGHT="44" WIDTH="0" VPOS="510" HPOS="2416" CONTENT=""/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r3" HEIGHT="168" WIDTH="584" VPOS="142" HPOS="2396">
+               <Shape>
+                  <Polygon POINTS="2396,142 2396,310 2980,310 2980,142"/>
+               </Shape>
+               <TextLine ID="r3l1"
+                         BASELINE="310"
+                         HEIGHT="168"
+                         WIDTH="584"
+                         VPOS="142"
+                         HPOS="2396">
+                  <String HEIGHT="168" WIDTH="0" VPOS="142" HPOS="2980" CONTENT=""/>
+               </TextLine>
+            </TextBlock>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

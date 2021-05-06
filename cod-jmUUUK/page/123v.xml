@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=cod-jmUUUK-m6(htr_id=25403)::::v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.6
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-06-18T16:56:27.046+02:00</Created>
+        <LastChange>2020-07-28T06:32:14.664+02:00</LastChange>
+        <TranskribusMetadata docId="415252" pageId="16481043" pageNr="262" tsid="35516878" status="IN_PROGRESS" userId="25065" imgUrl="https://files.transkribus.eu/Get?id=ZVNGNCDMUHGGQKEUGOEDRHIR&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=GIIKYSTMIDNIOTSZKERIGLIB" imageId="12274853"/>
+    </Metadata>
+    <Page imageFilename="261.jpg" imageWidth="2300" imageHeight="3328">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1595939755091" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r1"/>
+                <RegionRefIndexed index="1" regionRef="r2"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="r1" custom="readingOrder {index:0;}">
+            <Coords points="495,1583 495,1733 543,1733 543,1583"/>
+            <TextLine id="r1l1" custom="readingOrder {index:0;}">
+                <Coords points="490,1693 501,1692 504,1694 512,1692 519,1686 530,1695 533,1695 539,1689 548,1687 548,1656 536,1657 533,1654 531,1656 527,1654 517,1663 490,1662"/>
+                <Baseline points="495,1683 543,1683"/>
+                <TextEquiv>
+                    <Unicode>se ia</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>se ia</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion orientation="0.0" id="r2" custom="readingOrder {index:1;}">
+            <Coords points="1139,1476 1139,1588 1260,1588 1260,1476"/>
+            <TextLine id="r2l1" custom="readingOrder {index:0;}">
+                <Coords points="1221,1508 1226,1508 1227,1511 1232,1514 1244,1514 1252,1520 1263,1519 1268,1475 1263,1474 1260,1476 1256,1474 1252,1477 1250,1474 1245,1475 1240,1469 1232,1471 1226,1470"/>
+                <Baseline points="1227,1496 1260,1500"/>
+                <TextEquiv>
+                    <Unicode>cit: </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l2" custom="readingOrder {index:1;}">
+                <Coords points="1138,1550 1163,1548 1174,1542 1199,1543 1212,1550 1247,1544 1256,1552 1265,1549 1265,1508 1245,1509 1229,1516 1194,1516 1180,1507 1164,1514 1138,1511"/>
+                <Baseline points="1143,1539 1172,1539 1201,1539 1230,1539 1260,1539"/>
+                <TextEquiv>
+                    <Unicode>t: n eitrdu </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="r2l3" custom="readingOrder {index:2;}">
+                <Coords points="1134,1581 1152,1580 1158,1584 1166,1580 1172,1586 1186,1581 1208,1586 1212,1583 1237,1591 1247,1582 1256,1582 1256,1553 1215,1553 1208,1546 1197,1548 1193,1543 1186,1546 1175,1542 1163,1548 1134,1547"/>
+                <Baseline points="1139,1574 1167,1576 1195,1578 1223,1578 1251,1575"/>
+                <TextEquiv>
+                    <Unicode>i ecltnum</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>cit: 
+t: n eitrdu 
+i ecltnum</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

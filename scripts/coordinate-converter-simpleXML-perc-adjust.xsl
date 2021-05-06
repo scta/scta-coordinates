@@ -10,7 +10,7 @@
   version="2.0">
   <xsl:output method="xml" indent="yes"/>
   <xsl:param name="colums">2</xsl:param>
-  <xsl:param name="codexid">maz</xsl:param>
+  <xsl:param name="codexid">cod-TxxxqU</xsl:param>
   <!-- a parameter to determine where widht is retrieved from (the "column" or "line") -->
   <xsl:param name="widthStandard">column</xsl:param>
   <!--<xsl:param name="initial">L</xsl:param>-->
@@ -35,11 +35,18 @@
     <xsl:variable name="canvasIdSlug"><xsl:value-of select="$surfaceDoc//codex/surfaces/surface[shortid = concat($codexid, '/', $surfaceIdSlug)]/hasISurfaces/ISurface/canvasslug"/></xsl:variable>
     <xsl:variable name="canvasId"><xsl:value-of select="concat($canvasBase, $canvasIdSlug)"/></xsl:variable>
     
-    <xsl:variable name="imageFullDimensions" select="document(concat('file:/Users/jcwitt/Projects/scta/scta-coordinates/', $codexid, '/imageFullDimensions.xml'))"/>
-    <xsl:variable name="realheight" select="number($imageFullDimensions//sctacim:pair[sctacim:canvas/text() = $canvasId]/sctacim:fullHeight)"/>
-    <xsl:variable name="percent" select="$realheight div 5000"/>
-    
+    <!--<xsl:variable name="imageFullDimensions" select="document(concat('file:/Users/jcwitt/Projects/scta/scta-coordinates/', $codexid, '/imageFullDimensions.xml'))"/>-->
     <xsl:variable name="imageCanvasMapDoc" select="document(concat('file:/Users/jcwitt/Projects/scta/scta-coordinates/', $codexid, '/imageCanvasMap.xml'))"/>
+    
+    <!-- real full height for canvas -->
+    <xsl:variable name="realheight" select="number($imageCanvasMapDoc//sctacim:pair[sctacim:canvas/text() = $canvasId]/sctacim:height)"/>
+    <!--<xsl:variable name="realheight">1741</xsl:variable> <!-\- manual real height -\->-->
+    <!-- height of page in the version used to collect coords -->
+    <xsl:variable name="pageHeight" select="number(/transk:PcGts/transk:Page[1]/@imageHeight)"/>
+    <xsl:variable name="percent" select="$realheight div $pageHeight"/>
+    <xsl:message>percent <xsl:value-of select="$percent"/></xsl:message>
+    
+    
     <xsl:variable name="imageUrl" select="$imageCanvasMapDoc//sctacim:pair[sctacim:canvas/text() = $canvasId]/sctacim:image"/>
     <xsl:variable name="surfaceId" select="$imageCanvasMapDoc//sctacim:pair[sctacim:canvas/text() = $canvasId]/sctacim:surfaceId"/>
     <xsl:variable name="textDoc" select="document(concat('../', $codexid, '/lineText/', $textFileName))"/>

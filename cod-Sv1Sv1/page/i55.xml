@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2020-07-12T17:22:58.057+02:00</Created>
+        <LastChange>2020-07-12T17:23:28.594+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: English
+                Language: Latin
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="431810" pageId="17389111" pageNr="56" tsid="34193251" status="IN_PROGRESS" userId="25065" imgUrl="https://files.transkribus.eu/Get?id=NKCUZWDLOCXUCAYTXRDPXNYK&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=ZTXPRJQDYGMMQFLWNOXSRNYA" imageId="13080206"/>
+    </Metadata>
+    <Page imageFilename="55.jpg" imageWidth="2090" imageHeight="3101">
+        <PrintSpace>
+            <Coords points="410,249 1701,249 1701,2476 410,2476"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1594678171451" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion type="paragraph" id="r_1_1" custom="readingOrder {index:0;}">
+            <Coords points="733,783 742,783 742,792 733,792"/>
+            <TextLine id="tl_1" primaryLanguage="English" custom="readingOrder {index:0;}">
+                <Coords points="734,784 741,784 741,791 734,791"/>
+                <Baseline points="734,791 741,791"/>
+                <Word id="w_w2aab1b1b2b1b1ab1" language="English" custom="readingOrder {index:0;}">
+                    <Coords points="734,784 741,784 741,791 734,791"/>
+                    <TextEquiv>
+                        <Unicode>'</Unicode>
+                    </TextEquiv>
+                    <TextStyle fontFamily="Arial" fontSize="4.0"/>
+                </Word>
+                <TextEquiv>
+                    <Unicode>'</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Arial" fontSize="4.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>'</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_3" custom="readingOrder {index:1;}">
+            <Coords points="559,1720 767,1720 767,1740 559,1740"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>
