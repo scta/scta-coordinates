@@ -11,33 +11,78 @@
   <xsl:output method="xml" indent="yes"/>
   <xsl:param name="colums">2</xsl:param>
   <xsl:param name="codexid">vatlat955</xsl:param>
+  <!-- use this param to restrict line sequence to textregions with type=paragraph -->
+  <xsl:param name="paragraphType">true</xsl:param>
+  <!-- use this param to add image text regionscoordinates as lines at the end of the file -->
+  <xsl:param name="imageCoordinateExtraction">true</xsl:param>
   <!-- a parameter to determine where widht is retrieved from (the "column" or "line") -->
   <xsl:param name="widthStandard">column</xsl:param>
   <!--<xsl:param name="initial">L</xsl:param>-->
   <xsl:template match="/">
-    
     <lines xmlns="http://new" >
       
-      <xsl:call-template name="coordinate-extraction">
       
+      <xsl:variable name="pageOrderNumber" select="/transk:PcGts/transk:Metadata[1]/transk:TranskribusMetadata[1]/@pageNr"/>
+      <xsl:variable name="textFileName" select="substring-after(base-uri(), concat('file:/Users/jcwitt/Projects/scta/scta-coordinates/', $codexid, '/page/'))"/>
+      <xsl:variable name="surfaceIdSlug" select=" substring-before($textFileName, '.xml')"/>
+      <xsl:variable name="surfaceDoc" select="document(concat('file:/Users/jcwitt/Projects/scta/scta-codices/', $codexid, '.xml'))"/>
+      <xsl:variable name="canvasBase" select="$surfaceDoc//canvasBase[1]"/>
+      <xsl:variable name="canvasIdSlug"><xsl:value-of select="$surfaceDoc//codex/surfaces/surface[shortid = concat($codexid, '/', $surfaceIdSlug)]/hasISurfaces/ISurface/canvasslug"/></xsl:variable>
+      <xsl:variable name="canvasId"><xsl:value-of select="concat($canvasBase, $canvasIdSlug)"/></xsl:variable>
+      <xsl:variable name="imageCanvasMapDoc" select="document(concat('file:/Users/jcwitt/Projects/scta/scta-coordinates/', $codexid, '/imageCanvasMap.xml'))"/>
+      <xsl:variable name="imageUrl" select="$imageCanvasMapDoc//sctacim:pair[sctacim:canvas/text() = $canvasId]/sctacim:image"/>
+      <xsl:variable name="surfaceId" select="$imageCanvasMapDoc//sctacim:pair[sctacim:canvas/text() = $canvasId]/sctacim:surfaceId"/>
+      <xsl:variable name="textDoc" select="concat('../', $codexid, '/lineText/', $textFileName)"/>
+      
+      <xsl:call-template name="coordinate-extraction">
+        <xsl:with-param name="pageOrderNumber" select="$pageOrderNumber"/>
+        <xsl:with-param name="textFileName" select="$textFileName"/>
+        <xsl:with-param name="surfaceIdSlug" select="$surfaceIdSlug"/>
+        <xsl:with-param name="surfaceDoc" select="$surfaceDoc"/>
+        <xsl:with-param name="canvasBase" select="$canvasBase"/>
+        <xsl:with-param name="canvasIdSlug" select="$canvasIdSlug"/>
+        <xsl:with-param name="canvasId" select="$canvasId"/>
+        <xsl:with-param name="imageCanvasMapDoc" select="$imageCanvasMapDoc"/>
+        <xsl:with-param name="imageUrl" select="$imageUrl"/>
+        <xsl:with-param name="surfaceId" select="$surfaceId"/>
+        <xsl:with-param name="textDoc" select="$textDoc"/>
       </xsl:call-template>
+      
+      <xsl:if test="$imageCoordinateExtraction eq 'true'">
+        <xsl:call-template name="image-coordinate-extraction">
+          <xsl:with-param name="pageOrderNumber" select="$pageOrderNumber"/>
+          <xsl:with-param name="textFileName" select="$textFileName"/>
+          <xsl:with-param name="surfaceIdSlug" select="$surfaceIdSlug"/>
+          <xsl:with-param name="surfaceDoc" select="$surfaceDoc"/>
+          <xsl:with-param name="canvasBase" select="$canvasBase"/>
+          <xsl:with-param name="canvasIdSlug" select="$canvasIdSlug"/>
+          <xsl:with-param name="canvasId" select="$canvasId"/>
+          <xsl:with-param name="imageCanvasMapDoc" select="$imageCanvasMapDoc"/>
+          <xsl:with-param name="imageUrl" select="$imageUrl"/>
+          <xsl:with-param name="surfaceId" select="$surfaceId"/>
+          <xsl:with-param name="textDoc" select="$textDoc"/>
+        </xsl:call-template>
+      </xsl:if>
     </lines>
   </xsl:template>
   
   <xsl:template name="coordinate-extraction">
-    <xsl:variable name="pageOrderNumber" select="/transk:PcGts/transk:Metadata[1]/transk:TranskribusMetadata[1]/@pageNr"/>
     
-    <xsl:variable name="textFileName" select="substring-after(base-uri(), concat('file:/Users/jcwitt/Projects/scta/scta-coordinates/', $codexid, '/page/'))"/>
-    <xsl:variable name="surfaceIdSlug" select=" substring-before($textFileName, '.xml')"/>
-    <xsl:variable name="surfaceDoc" select="document(concat('file:/Users/jcwitt/Projects/scta/scta-codices/', $codexid, '.xml'))"/>
-    <xsl:variable name="canvasBase" select="$surfaceDoc//canvasBase[1]"/>
-    <xsl:variable name="canvasIdSlug"><xsl:value-of select="$surfaceDoc//codex/surfaces/surface[shortid = concat($codexid, '/', $surfaceIdSlug)]/hasISurfaces/ISurface/canvasslug"/></xsl:variable>
-    <xsl:variable name="canvasId"><xsl:value-of select="concat($canvasBase, $canvasIdSlug)"/></xsl:variable>
-    <xsl:variable name="imageCanvasMapDoc" select="document(concat('file:/Users/jcwitt/Projects/scta/scta-coordinates/', $codexid, '/imageCanvasMap.xml'))"/>
-    <xsl:variable name="imageUrl" select="$imageCanvasMapDoc//sctacim:pair[sctacim:canvas/text() = $canvasId]/sctacim:image"/>
-    <xsl:variable name="surfaceId" select="$imageCanvasMapDoc//sctacim:pair[sctacim:canvas/text() = $canvasId]/sctacim:surfaceId"/>
-    <xsl:variable name="textDoc" select="document(concat('../', $codexid, '/lineText/', $textFileName))"/>
-    <xsl:for-each select="//transk:TextRegion//transk:TextLine ">
+    <xsl:param name="pageOrderNumber"/>
+    <xsl:param name="textFileName"/>
+    <xsl:param name="surfaceIdSlug"/>
+    <xsl:param name="surfaceDoc"/>
+    <xsl:param name="canvasBase"/>
+    <xsl:param name="canvasIdSlug"/>
+    <xsl:param name="canvasId"/>
+    <xsl:param name="imageCanvasMapDoc"/>
+    <xsl:param name="imageUrl"/>
+    <xsl:param name="surfaceId"/>
+    <xsl:param name="textDoc"/>
+    
+    <!-- get lines either in all text regions (except those marked image) or only in those with type=paragraph -->
+    <xsl:variable name="lineSequence" select="if ($paragraphType eq 'true') then (//transk:TextRegion[@type='paragraph']//transk:TextLine) else (//transk:TextRegion[not(contains(./@custom, 'image'))]//transk:TextLine)"/>
+    <xsl:for-each select="$lineSequence">
       <xsl:variable name="textRegionCoords" select="tokenize(./parent::transk:TextRegion/transk:Coords/@points, ' ')"/>
       
       <xsl:variable name="columnXValues">
@@ -62,7 +107,7 @@
       <xsl:variable name="columnWidth" select="number($columnX2) - number($columnX1)"/>
       
       <xsl:variable name="lineNumber" select="position()"/>
-      <xsl:variable name="text" select="$textDoc/sctaln:div/sctaln:line[position() = $lineNumber]"/>
+      <xsl:variable name="text" select="if (doc-available($textDoc)) then document($textDoc)/sctaln:div/sctaln:line[position() = $lineNumber] else ''"/>
       <xsl:variable name="lineId" select="./@id"/>
       <xsl:variable name="coords" select="tokenize(./transk:Coords/@points, ' ')"/>
       <xsl:variable name="coordsAmount" select="count($coords)"/>
@@ -194,6 +239,70 @@
         </xsl:call-template></text>-->
   </line>
     </xsl:for-each>
+  </xsl:template>
+ 
+  <xsl:template name="image-coordinate-extraction">
+    
+    <xsl:param name="pageOrderNumber"/>
+    <xsl:param name="textFileName"/>
+    <xsl:param name="surfaceIdSlug"/>
+    <xsl:param name="surfaceDoc"/>
+    <xsl:param name="canvasBase"/>
+    <xsl:param name="canvasIdSlug"/>
+    <xsl:param name="canvasId"/>
+    <xsl:param name="imageCanvasMapDoc"/>
+    <xsl:param name="imageUrl"/>
+    <xsl:param name="surfaceId"/>
+    <xsl:param name="textDoc"/>
+      <!-- loop through each text regions tagged as image -->
+      <xsl:for-each select="//transk:TextRegion[contains(./@custom, 'image')]">
+   
+   
+   
+      <!-- BEGIN gather needed variables -->
+        <!-- get line number where beginning number of image Text Regions is the next number after all the lines -->
+        <xsl:variable name="lineNumber" select="count(.//preceding::transk:TextLine[parent::transk:TextRegion[not(contains(./@custom, 'image'))]]) + count(.//preceding::transk:TextRegion[@contains, 'image']) + 1"/>
+        
+        <xsl:variable name="column">imageregions</xsl:variable>
+        <xsl:variable name="text" select="if (doc-available($textDoc)) then document($textDoc)/sctaln:div/sctaln:line[position() = $lineNumber] else ''"/>
+        <xsl:variable name="lineId" select="./@id"/>
+        <xsl:variable name="imageRegionId" select="./@id"/>
+        <xsl:variable name="figure-x" select="tokenize(tokenize(./transk:Coords/@points, ' ')[1], ',')[1]"/>
+        <xsl:variable name="figure-y" select="tokenize(tokenize(./transk:Coords/@points, ' ')[1], ',')[2]"/>
+        <xsl:variable name="figure-x2" select="tokenize(tokenize(./transk:Coords/@points, ' ')[3], ',')[1]"/>
+        <xsl:variable name="figure-y2" select="tokenize(tokenize(./transk:Coords/@points, ' ')[3], ',')[2]"/>
+        <xsl:variable name="figure-w" select="number($figure-x2) - number($figure-x)"/>
+        <xsl:variable name="figure-h" select="number($figure-y2) - number($figure-y)"/>
+        <xsl:variable name="iiif-region" select="concat($figure-x, ',', $figure-y, ',', $figure-w, ',', $figure-h)"/>
+        <xsl:variable name="iiif-region-adjusted" select="concat($figure-x, ',', $figure-y, ',', number($figure-w) + 65, ',', number($figure-h) + 40)"/>
+        <!-- END gather needed variables -->
+        
+        <!-- BEGIN out put line for each image text regions -->
+        <line xmlns="http://new">
+          <pageOrderNumber><xsl:value-of select="$pageOrderNumber"/></pageOrderNumber>
+          <!--<amount><xsl:value-of select="$coordsAmount"/></amount>-->
+          <id><xsl:value-of select="$lineId"/></id>
+          <column><xsl:value-of select="$column"/></column>
+          <surfaceIdSlug><xsl:value-of select="$surfaceIdSlug"/></surfaceIdSlug>
+          <canvasId><xsl:value-of select="$canvasId"/></canvasId>
+          <imageUrl><xsl:value-of select="$imageUrl"/></imageUrl>
+          <surfaceId><xsl:value-of select="$surfaceId"/></surfaceId>
+          <lineNumber><xsl:value-of select="$lineNumber"/></lineNumber>
+          <!--<bottomLeft><xsl:value-of select="$bottomLeft"/></bottomLeft>
+          <bottomRight><xsl:value-of select="$bottomRight"/></bottomRight>
+          <topRight><xsl:value-of select="$topRight"/></topRight>
+          <topLeft><xsl:value-of select="$topLeft"/></topLeft>-->
+          <width><xsl:value-of select="$figure-w"/></width>
+          <height><xsl:value-of select="$figure-h"/></height>
+          <iiif><xsl:value-of select="$iiif-region"/></iiif>
+          <iiifAdjusted><xsl:value-of select="$iiif-region-adjusted"/></iiifAdjusted>
+          <text><xsl:value-of select="$text"/></text>
+          <!--<text><xsl:call-template name="word">
+        <xsl:with-param name="lineText" select="$text"></xsl:with-param>
+        </xsl:call-template></text>-->
+        </line>
+      </xsl:for-each>
+
   </xsl:template>
   <!-- TODOuncomment to keep word wrap and add word coordinates when they are available -->
   <xsl:template name="word">
